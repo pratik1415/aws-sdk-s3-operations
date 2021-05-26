@@ -4,8 +4,8 @@ var file = require('./package.json')
 
 AWS.config.update({
     region: "ap-south-1",
-    accessKeyId: "AKIASIGLOA7NW66O4OTB",
-    secretAccessKey: "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"
+    accessKeyId: "#",
+    secretAccessKey: "#"
 })
 var s3 = new AWS.S3();
 
